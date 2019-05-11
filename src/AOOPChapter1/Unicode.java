@@ -2,8 +2,9 @@ package AOOPChapter1;
 
 public class Unicode {
 	public static void main(String[] args) {
-		String c = Character.toString((char)'\u0233');
 		String s = "Hello, San Jos";
-		System.out.println(s + c);
+		//String c = "\u0233";
+		String e = "\u2202";
+		System.out.println(e);
 	}
 }
